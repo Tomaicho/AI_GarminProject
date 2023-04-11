@@ -1,0 +1,1 @@
+O código do gajo foi necessário para conseguir aceder à API do Garmin Connect. Ver o que faz o pip3 install cloudscraper requests readchar pwinput
