@@ -26,14 +26,15 @@ from json_readers import(
     resp_reader,
     spo2_reader,
     sleep_reader,
-    week_steps_reader
+    week_steps_reader,
+    body_battery_reader
 )
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-email = ''
-password = ''
+email = 'tomas.a.lima@gmail.com'
+password = 'Xuub44103976'
 api = None
 
 today = datetime.date.today() - datetime.timedelta(days=1)
@@ -46,8 +47,8 @@ menu_options = {
     "1": f"Informação de atividades em '{today.isoformat()}'",
     "2": f"Informação estatística e composição corporal em '{today.isoformat()}'", # Composição corporal inexistente porque não registo peso nem ingestão de água
     "3": f"Passos em '{today.isoformat()}'",
-    "4": f"Dados de frequência cardíaca em '{today.isoformat()}'",
-    "5": f"Passos desde '{startdate.isoformat()}' até '{today.isoformat()}'",
+    "4": f"Passos desde '{startdate.isoformat()}' até '{today.isoformat()}'",
+    "5": f"Dados de frequência cardíaca em '{today.isoformat()}'",
     "6": f"Registo da bateria corporal desde '{startdate.isoformat()}' até '{today.isoformat()}'",
     "7": f"Condição de treino em '{today.isoformat()}'", # Este não funciona tão bem porque não tenho corrido
     "8": f"Frequência cardíaca em repouso em {today.isoformat()}'",
@@ -175,22 +176,25 @@ def switch(api, i):
                 steps_reader(f'{today.isoformat()}')
 
             elif i == "4":
-                # Get heart rate data for 'YYYY-MM-DD'
-                f = open(f'data/Heart_rate/{today.isoformat()}.json', 'w')
-                f.write(create_json(api.get_heart_rates(today.isoformat())))
-                f.close()
-                hr_reader(f'{today.isoformat()}')
-
-            elif i == "5":
-                # Get daily body battery data for 'YYYY-MM-DD' to 'YYYY-MM-DD'
-                display_json(api.get_body_battery(startdate.isoformat(), today.isoformat()))
-            
-            elif i == "6":
                 # Get daily step data for 'YYYY-MM-DD'
                 f = open(f'data/Week_Steps/{today.isoformat()}.json', 'w')
                 f.write(create_json(api.get_daily_steps(startdate.isoformat(), today.isoformat())))
                 f.close()
                 week_steps_reader(f'{today.isoformat()}')
+
+            elif i == "5":
+                # Get heart rate data for 'YYYY-MM-DD'
+                f = open(f'data/Heart_rate/{today.isoformat()}.json', 'w')
+                f.write(create_json(api.get_heart_rates(today.isoformat())))
+                f.close()
+                hr_reader(f'{today.isoformat()}')
+            
+            elif i == "6":
+                # Get daily body battery data for 'YYYY-MM-DD' to 'YYYY-MM-DD'
+                f = open(f'data/Body_Battery/{today.isoformat()}.json', 'w')
+                f.write(create_json(api.get_body_battery(startdate.isoformat(), today.isoformat())))
+                f.close()
+                body_battery_reader(f'{today.isoformat()}')
                 
             elif i == "7":
                 # Get training status data for 'YYYY-MM-DD'

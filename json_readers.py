@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import json
 from datetime import datetime
+import numpy as np
+import pandas as pd
 
 def hr_reader(date):
     file = f'data\Heart_rate\{date}.json'
@@ -160,5 +162,56 @@ def week_steps_reader(date):
     ax2=ax.twinx()
     ax2.plot(dates, distance, color="blue")
     ax2.set_ylabel("Steps distance (m)",color="blue")
+
+    plt.show()
+
+
+def body_battery_reader(date):
+    file = f'data\Body_Battery\{date}.json'
+    print(file)
+    dictionary = json.load(open(file, 'r'))
+    dates = []
+    charged = []
+    drained = []
+    timestamps = []
+    battery = []
+    for entry in dictionary:
+        dates.append(entry['date'])
+        charged.append(entry['charged'])
+        drained.append(entry['drained'])
+
+    # Convert the dates to datetime objects
+    dates = [datetime.strptime(ts, '%Y-%m-%d') for ts in dates]
+    
+    # Get the values for the line graph
+    for entry in dictionary:
+        for instance in entry['bodyBatteryValuesArray']:
+            timestamps.append(instance[0])
+            battery.append(instance[1])
+
+    # Convert the timestamps_stress to datetime objects
+    timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
+
+    fig, ax = plt.subplots(2, 1, figsize=(12, 6))
+    barWidth = 0.25
+    
+    br1 = np.arange(len(dates))
+    br2 = [x + 0.20 for x in br1]
+
+    ax[0].bar(br1, charged, color ='g', width = barWidth, edgecolor ='grey', label ='charged')
+    ax[0].bar(br2, drained, color ='r', width = barWidth, edgecolor ='grey', label ='drained')
+    
+    ax[0].set_xlabel('Date', fontweight ='bold', fontsize = 10)
+    ax[0].set_ylabel('Body Battery (%)', fontweight ='bold', fontsize = 10)
+    ax[0].set_xticks([r + barWidth for r in range(len(dates))], dates)
+    ax[0].set_title("Daily Body Battery total drainage and charging")
+
+    ax[1].plot(timestamps,battery , color="blue")
+    ax[1].set_xlabel('Timestamp', fontweight ='bold', fontsize = 10)
+    ax[1].set_ylabel('Body Battery (%)', fontweight ='bold', fontsize = 10)
+    ax[1].set_title("Body Battery evolution")
+    ax[1].grid()
+
+    fig.subplots_adjust(hspace=0.6)
 
     plt.show()
