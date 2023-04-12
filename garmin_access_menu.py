@@ -27,14 +27,15 @@ from json_readers import(
     spo2_reader,
     sleep_reader,
     week_steps_reader,
-    body_battery_reader
+    body_battery_reader,
+    stress_reader
 )
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-email = 'tomas.a.lima@gmail.com'
-password = 'Xuub44103976'
+email = ''
+password = ''
 api = None
 
 today = datetime.date.today() - datetime.timedelta(days=1)
@@ -217,7 +218,10 @@ def switch(api, i):
 
             elif i == "a":
                 # Get stress data for 'YYYY-MM-DD'
-                display_json(f"api.get_stress_data('{today.isoformat()}')", api.get_stress_data(today.isoformat()))
+                f = open(f'data/Stress/{today.isoformat()}.json', 'w')
+                f.write(create_json(api.get_stress_data(today.isoformat())))
+                f.close()
+                stress_reader(f'{today.isoformat()}')
             
             elif i == "b":
                 # Get respiration data for 'YYYY-MM-DD'

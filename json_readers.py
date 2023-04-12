@@ -6,7 +6,6 @@ import pandas as pd
 
 def hr_reader(date):
     file = f'data\Heart_rate\{date}.json'
-    print(file)
     dictionary = json.load(open(file, 'r'))
     timestamps = []
     heartrates = []
@@ -15,9 +14,9 @@ def hr_reader(date):
         heartrates.append(value[1])
 
     # Convert the timestamps to datetime objects
-    # timestamps = [datetime.fromtimestamp(ts/1000) for ts in timestamps]
     timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
 
+    plt.figure(figsize=(12, 6))
     plt.grid(True)
 
     ## LINE GRAPH ##
@@ -30,7 +29,6 @@ def hr_reader(date):
 
 def steps_reader(date):
     file = f'data\Steps\{date}.json'
-    print(file)
     dictionary = json.load(open(file, 'r'))
     timestamps = []
     steps = []
@@ -43,7 +41,7 @@ def steps_reader(date):
     # Convert the timestamps to datetime objects
     timestamps = [datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S.%f') for ts in timestamps]
 
-
+    plt.figure(figsize=(12, 6))
     plt.grid(True)
 
     ## LINE GRAPH ##
@@ -67,6 +65,7 @@ def resp_reader(date):
     # Convert the timestamps to datetime objects
     timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
 
+    plt.figure(figsize=(12, 6))
     plt.grid(True)
 
     ## LINE GRAPH ##
@@ -90,6 +89,7 @@ def spo2_reader(date):
     # Convert the timestamps to datetime objects
     timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
 
+    plt.figure(figsize=(12, 6))
     plt.grid(True)
 
     ## LINE GRAPH ##
@@ -137,7 +137,6 @@ def sleep_reader(date):
 
 def week_steps_reader(date):
     file = f'data\Week_Steps\{date}.json'
-    print(file)
     dictionary = json.load(open(file, 'r'))
     dates = []
     steps = []
@@ -168,7 +167,6 @@ def week_steps_reader(date):
 
 def body_battery_reader(date):
     file = f'data\Body_Battery\{date}.json'
-    print(file)
     dictionary = json.load(open(file, 'r'))
     dates = []
     charged = []
@@ -180,7 +178,7 @@ def body_battery_reader(date):
         charged.append(entry['charged'])
         drained.append(entry['drained'])
 
-    # Convert the dates to datetime objects
+    # Convert the dates to datetime Sobjects
     dates = [datetime.strptime(ts, '%Y-%m-%d') for ts in dates]
     
     # Get the values for the line graph
@@ -204,7 +202,9 @@ def body_battery_reader(date):
     ax[0].set_xlabel('Date', fontweight ='bold', fontsize = 10)
     ax[0].set_ylabel('Body Battery (%)', fontweight ='bold', fontsize = 10)
     ax[0].set_xticks([r + barWidth for r in range(len(dates))], dates)
+    ax[0].set_xticklabels([date.strftime("%Y-%m-%d") for date in dates])
     ax[0].set_title("Daily Body Battery total drainage and charging")
+    ax[0].legend()
 
     ax[1].plot(timestamps,battery , color="blue")
     ax[1].set_xlabel('Timestamp', fontweight ='bold', fontsize = 10)
@@ -213,5 +213,28 @@ def body_battery_reader(date):
     ax[1].grid()
 
     fig.subplots_adjust(hspace=0.6)
+    plt.show()
+
+
+def stress_reader(date):
+    file = f'data\Stress\{date}.json'
+    dictionary = json.load(open(file, 'r'))
+    timestamps = []
+    values = []
+    for value in dictionary['stressValuesArray']:
+        timestamps.append(value[0])
+        values.append(value[1])
+
+    # Convert the timestamps to datetime objects
+    timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
+
+    plt.figure(figsize=(12, 6))
+    plt.grid(True)
+
+    ## LINE GRAPH ##
+    plt.title(f'Stress Levels {date}')
+    plt.plot(timestamps, values, color='maroon', marker='o')
+    plt.xlabel('timestamp')
+    plt.ylabel('Stress Value')
 
     plt.show()
