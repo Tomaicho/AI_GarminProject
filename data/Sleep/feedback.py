@@ -14,15 +14,13 @@ def feedback_sleep(date):
             sleepMovList = json.loads(data)["sleepMovement"]
             for mov_entry in sleepMovList:
                  activity = mov_entry["activityLevel"]
-                 if activity < 2.5: #Definiu-se 2.5 como o threshold, pois todos os valores comprovadamente a dormir eram inferiores a 2.6
+                 if activity < 2.0: #Definiu-se 2.0 como o threshold, pois todos os valores comprovadamente a dormir eram inferiores a 2.6
                     movLevelList.append(activity)
         media_dia = mean(movLevelList)
         medias_diarias.append(media_dia)
     
     media = mean(medias_diarias)
     dp = stdev(medias_diarias)
-    print('Média: ', media)
-    print('D-P: ', dp)
 
     today = f'C:/Users/tomas/Desktop/Mestrado/1A_2S/Ambientes Inteligentes/Trabalho_1/AI_GarminProject/data/Sleep/{date.isoformat()}.json'
     sleep = False
@@ -39,16 +37,13 @@ def feedback_sleep(date):
                     if sleep == False:
                         sleep = True
                         start_time = datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S.%f')#Regista hora de início do sono
-                        print('Start: ', start_time)
                 elif activity > 3.0:
                     if sleep == True:
                         sleep = False
                         end_time = datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S.%f')
-                        print('End: ', end_time)
                         sleep_periodes.append((start_time, end_time))
                         sleep_duration += end_time - start_time
             media_hoje = mean(movLevelList)
-            print('Média hoje: ', media_hoje)
     if media_hoje > media+dp:
         print("A sua atividade noturna esta noite esteve acima dos padrão normal dos últimos 30 dias.")
     elif media_hoje < media-dp:
@@ -57,8 +52,15 @@ def feedback_sleep(date):
          print("A sua atividade noturna esta noite esteve dentro dos parâmetros normais.")
     
     print(f'A duração do seu sono no dia {date.isoformat()} foi de: ', sleep_duration)
+    sleep_duration = int(sleep_duration.total_seconds()/60)
+    if sleep_duration >= 480:
+        print("Dormiu mais do que o número mínimo de horas de sono recomendado. Bom desempenho!")
+    elif sleep_duration < 480 and sleep_duration > 420:
+        print("Dormiu um pouco menos do que o número mínimo de horas de sono recomendado que é de 8h. Procure aumentar ligeiramente o seu tempo de sono para evitar complicações de saúde no futuro.")
+    else:
+        print('O seu número de horas de sono hoje foi insuficiente. Evite a repetição deste comportamento de uma forma repetitiva. Se dedica o tempo necessário mas não consegue adormecer, consulte o seu médico.')
 
-    return str(sleep_duration)
+    return sleep_duration
     # for period in sleep_periodes:
     #     duration = 
     

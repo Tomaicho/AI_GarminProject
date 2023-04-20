@@ -39,8 +39,8 @@ from data.Sleep.feedback import feedback_sleep
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-email = ''
-password = ''
+email = 'tomas.a.lima@gmail.com'
+password = 'Xuub44103976'
 api = None
 # Escolher dia do qual quer obter os dados
 while True:
@@ -67,14 +67,10 @@ menu_options = {
     "4": f"Passos desde '{startdate.isoformat()}' até '{today.isoformat()}'",
     "5": f"Dados de frequência cardíaca em '{today.isoformat()}'",
     "6": f"Registo da bateria corporal desde '{startdate.isoformat()}' até '{today.isoformat()}'",
-    "7": f"Condição de treino em '{today.isoformat()}'", # Este não funciona tão bem porque não tenho corrido
-    "0": f"Dados de sono em '{today.isoformat()}'",
-    "a": f"Dados de stress em '{today.isoformat()}'",
-    "b": f"Dados da frequência respiratória em '{today.isoformat()}'",
-    "c": f"Dados de SpO2 em '{today.isoformat()}'",
-    "e": f"Atividades desde início '{start}' até '{limit}'",
-    "f": "Última atividade",
-    "g": f"Resumo da progressão física desde '{startdate.isoformat()}' até '{today.isoformat()}' para todas as métricas",
+    "7": f"Dados de sono em '{today.isoformat()}'",
+    "8": f"Dados de stress em '{today.isoformat()}'",
+    "9": f"Dados da frequência respiratória em '{today.isoformat()}'",
+    "0": f"Dados de SpO2 em '{today.isoformat()}'",
     "Z": "Terminar sessão no portal do Garmin Connect",
     "q": "Sair",
 }
@@ -195,6 +191,21 @@ def switch(api, i):
                 f.write(create_json(api.get_stats_and_body(today.isoformat())))
                 f.close()
 
+                # Elimina valores nulos do json
+                filename = f'test_stats{today.isoformat()}.json'
+                temp_filename = f'{filename}.tmp'
+                with open(temp_filename, 'w') as temp_f:
+                    with open(filename, 'r') as f:
+                        new_list = []
+                        list = json.load(f)
+                    for dic in list:
+                        new_dic = {key: value for key, value in dic.items() if value is not None}
+                        new_list.append(new_dic)
+
+                    json.dump(new_list, temp_f, indent=4)
+                os.replace(temp_filename, filename)
+            
+
 
             # USER STATISTICS LOGGED
             elif i == "3":
@@ -218,7 +229,7 @@ def switch(api, i):
                 f.close()
                 mHr = hr_reader(f'{today.isoformat()}')
                 sendToAIO('garmin-data.heart-rate', mHr)
-                feedback_hr()
+                feedback_hr(today, mHr)
             
             elif i == "6":
                 # Get daily body battery data for 'YYYY-MM-DD' to 'YYYY-MM-DD'
@@ -226,14 +237,8 @@ def switch(api, i):
                 f.write(create_json(api.get_body_battery(startdate.isoformat(), today.isoformat())))
                 f.close()
                 body_battery_reader(f'{today.isoformat()}')
-                
-            elif i == "7":
-                # Get training status data for 'YYYY-MM-DD'
-                f = open(f'test_train_status{today.isoformat()}.json', 'w')
-                f.write(create_json(api.get_training_status(today.isoformat())))
-                f.close()
             
-            elif i == "0":
+            elif i == "7":
                 # Get sleep data for 'YYYY-MM-DD'
                 f = open(f'data/Sleep/{today.isoformat()}.json', 'w')
                 f.write(create_json(api.get_sleep_data(today.isoformat())))
@@ -242,69 +247,26 @@ def switch(api, i):
                 duration = feedback_sleep(today)
                 sendToAIO('garmin-data.sleep', duration)
 
-            elif i == "a":
+            elif i == "8":
                 # Get stress data for 'YYYY-MM-DD'
                 f = open(f'data/Stress/{today.isoformat()}.json', 'w')
                 f.write(create_json(api.get_stress_data(today.isoformat())))
                 f.close()
                 stress_reader(f'{today.isoformat()}')
             
-            elif i == "b":
+            elif i == "9":
                 # Get respiration data for 'YYYY-MM-DD'
                 f = open(f'data/Respiration/{today.isoformat()}.json', 'w')
                 f.write(create_json(api.get_respiration_data(today.isoformat())))
                 f.close()
                 resp_reader(f'{today.isoformat()}')
 
-            elif i == "c":
+            elif i == "0":
                 # Get SpO2 data for 'YYYY-MM-DD'
                 f = open(f'data/SpO2/{today.isoformat()}.json', 'w')
                 f.write(create_json(api.get_spo2_data(today.isoformat())))
                 f.close()
                 spo2_reader(f'{today.isoformat()}')
-            
-            # ACTIVITIES
-            elif i == "e":
-                # Get activities data from start and limit
-                f = open(f'test_activities{today.isoformat()}.json', 'w')
-                f.write(create_json(api.get_activities(start, limit))) # 0=start, 1=limit
-                f.close()
-
-                filename = f'test_activities{today.isoformat()}.json'
-                temp_filename = f'{filename}.tmp'
-                with open(temp_filename, 'w') as temp_f:
-                    with open(filename, 'r') as f:
-                        new_list = []
-                        list = json.load(f)
-                    for dic in list:
-                        new_dic = {key: value for key, value in dic.items() if value is not None}
-                        new_list.append(new_dic)
-
-                    json.dump(new_list, temp_f, indent=4)
-                os.replace(temp_filename, filename)
-            
-            elif i == "f":
-                # Get last activity
-                f = open(f'test_last_activity{today.isoformat()}.json', 'w')
-                f.write(create_json(api.get_last_activity()))
-                f.close()
-
-                filename = f'test_last_activity{today.isoformat()}.json'
-                temp_filename = f'{filename}.tmp'
-                with open(temp_filename, 'w') as temp_f:
-                    with open(filename, 'r') as f:
-                        dic = json.load(f)
-                    new_dic = {key: value for key, value in dic.items() if value is not None}
-                    json.dump(new_dic, temp_f, indent=4)
-                os.replace(temp_filename, filename)
-
-            elif i == "g":
-                # Get progress summary
-                f = open(f'test_progress{today.isoformat()}.json', 'w')
-                for metric in ["elevationGain", "duration", "distance", "movingDuration"]:
-                    f.write(create_json(
-                        api.get_progress_summary_between_dates(startdate.isoformat(), today.isoformat(), metric)))
-                f.close()
 
             elif i == "Z":
                 # Logout Garmin Connect portal

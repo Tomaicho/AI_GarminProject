@@ -11,14 +11,14 @@
         "sleepEndTimestampGMT": 1681974120000,
         "sleepStartTimestampLocal": 1681951260000,
         "sleepEndTimestampLocal": 1681977720000,
-        "autoSleepStartTimestampGMT": 1681948020000,
-        "autoSleepEndTimestampGMT": 1681973520000,
+        "autoSleepStartTimestampGMT": 1681942740000,
+        "autoSleepEndTimestampGMT": 1681973700000,
         "sleepQualityTypePK": null,
         "sleepResultTypePK": null,
         "unmeasurableSleepSeconds": 0,
-        "deepSleepSeconds": 1620,
-        "lightSleepSeconds": 14940,
-        "remSleepSeconds": 9900,
+        "deepSleepSeconds": 0,
+        "lightSleepSeconds": 16860,
+        "remSleepSeconds": 9600,
         "awakeSleepSeconds": 0,
         "deviceRemCapable": true,
         "retro": false,
@@ -2842,51 +2842,51 @@
     "sleepLevels": [
         {
             "startGMT": "2023-04-19T23:41:00.0",
-            "endGMT": "2023-04-20T00:08:00.0",
+            "endGMT": "2023-04-20T00:43:00.0",
             "activityLevel": 1.0
         },
         {
-            "startGMT": "2023-04-20T00:08:00.0",
-            "endGMT": "2023-04-20T00:35:00.0",
-            "activityLevel": 0.0
-        },
-        {
-            "startGMT": "2023-04-20T00:35:00.0",
-            "endGMT": "2023-04-20T00:40:00.0",
-            "activityLevel": 1.0
-        },
-        {
-            "startGMT": "2023-04-20T00:40:00.0",
-            "endGMT": "2023-04-20T00:53:00.0",
+            "startGMT": "2023-04-20T00:43:00.0",
+            "endGMT": "2023-04-20T00:51:00.0",
             "activityLevel": 2.0
         },
         {
-            "startGMT": "2023-04-20T00:53:00.0",
+            "startGMT": "2023-04-20T00:51:00.0",
             "endGMT": "2023-04-20T02:16:00.0",
             "activityLevel": 1.0
         },
         {
             "startGMT": "2023-04-20T02:16:00.0",
-            "endGMT": "2023-04-20T02:52:00.0",
+            "endGMT": "2023-04-20T02:51:00.0",
             "activityLevel": 2.0
         },
         {
-            "startGMT": "2023-04-20T02:52:00.0",
-            "endGMT": "2023-04-20T04:07:00.0",
+            "startGMT": "2023-04-20T02:51:00.0",
+            "endGMT": "2023-04-20T04:04:00.0",
             "activityLevel": 1.0
         },
         {
-            "startGMT": "2023-04-20T04:07:00.0",
-            "endGMT": "2023-04-20T05:01:00.0",
+            "startGMT": "2023-04-20T04:04:00.0",
+            "endGMT": "2023-04-20T05:00:00.0",
             "activityLevel": 2.0
         },
         {
-            "startGMT": "2023-04-20T05:01:00.0",
-            "endGMT": "2023-04-20T06:00:00.0",
+            "startGMT": "2023-04-20T05:00:00.0",
+            "endGMT": "2023-04-20T05:58:00.0",
             "activityLevel": 1.0
         },
         {
-            "startGMT": "2023-04-20T06:00:00.0",
+            "startGMT": "2023-04-20T05:58:00.0",
+            "endGMT": "2023-04-20T06:08:00.0",
+            "activityLevel": 2.0
+        },
+        {
+            "startGMT": "2023-04-20T06:08:00.0",
+            "endGMT": "2023-04-20T06:11:00.0",
+            "activityLevel": 1.0
+        },
+        {
+            "startGMT": "2023-04-20T06:11:00.0",
             "endGMT": "2023-04-20T07:02:00.0",
             "activityLevel": 2.0
         }

@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import numpy as np
 import pandas as pd
 from statistics import mean
@@ -61,7 +61,7 @@ def steps_reader(date):
         activity.append(entry['primaryActivityLevel'])
 
     # Convert the timestamps to datetime objects
-    timestamps = [datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S.%f') for ts in timestamps]
+    timestamps = [datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S.%f')+timedelta(hours=1) for ts in timestamps]
 
     plt.figure(figsize=(12, 6))
     plt.grid(True)
@@ -135,12 +135,14 @@ def sleep_reader(date):
         move_score.append(value['activityLevel'])
 
     # Convert the timestamps_mov to datetime objects
-    timestamps_mov = [datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S.%f') for ts in timestamps_mov]
+    timestamps_mov = [datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S.%f')+timedelta(hours=1) for ts in timestamps_mov]
 
+    # Para medir o stress
     # for value in dictionary['sleepStress']:
     #     timestamps_stress.append(value['startGMT'])
     #     stress.append(value['value'])
 
+    # Para medir a respiration
     for value in dictionary['wellnessEpochRespirationDataDTOList']:
         timestamps_stress.append(value['startTimeGMT'])
         stress.append(value['respirationValue'])
@@ -149,14 +151,14 @@ def sleep_reader(date):
     timestamps_stress = [datetime.strptime(datetime.fromtimestamp(ts/1000, tz=local_tz).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps_stress]
 
     fig, ax = plt.subplots(figsize=(12, 6))
-    ax.set_title('Sleep Movement and Stress')
+    ax.set_title(f'Sleep Movement and Respiration for {date}')
     ax.plot(timestamps_mov, move_score, color="red")
     ax.set_xlabel("timestamp")
     ax.set_ylabel("Movement Score", color="red")
 
     ax2=ax.twinx()
     ax2.plot(timestamps_stress, stress, color="blue")
-    ax2.set_ylabel("Stress Score",color="blue")
+    ax2.set_ylabel("Respirations/min",color="blue")
 
     plt.show()
 
