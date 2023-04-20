@@ -1,0 +1,50 @@
+[
+    {
+        "calendarDate": "2023-03-31",
+        "totalSteps": 9192,
+        "totalDistance": 7609,
+        "stepGoal": 9230
+    },
+    {
+        "calendarDate": "2023-04-01",
+        "totalSteps": 3497,
+        "totalDistance": 2912,
+        "stepGoal": 9230
+    },
+    {
+        "calendarDate": "2023-04-02",
+        "totalSteps": 28982,
+        "totalDistance": 23744,
+        "stepGoal": 8090
+    },
+    {
+        "calendarDate": "2023-04-03",
+        "totalSteps": 3442,
+        "totalDistance": 2862,
+        "stepGoal": 10090
+    },
+    {
+        "calendarDate": "2023-04-04",
+        "totalSteps": 4706,
+        "totalDistance": 3849,
+        "stepGoal": 9430
+    },
+    {
+        "calendarDate": "2023-04-05",
+        "totalSteps": 4059,
+        "totalDistance": 3313,
+        "stepGoal": 8490
+    },
+    {
+        "calendarDate": "2023-04-06",
+        "totalSteps": 4518,
+        "totalDistance": 3659,
+        "stepGoal": 7610
+    },
+    {
+        "calendarDate": "2023-04-07",
+        "totalSteps": 3469,
+        "totalDistance": 2810,
+        "stepGoal": 7000
+    }
+]

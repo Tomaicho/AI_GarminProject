@@ -3,18 +3,33 @@ import json
 from datetime import datetime
 import numpy as np
 import pandas as pd
+from statistics import mean
+import pytz
+
+local_tz = pytz.timezone('Europe/London')
 
 def hr_reader(date):
     file = f'data\Heart_rate\{date}.json'
     dictionary = json.load(open(file, 'r'))
     timestamps = []
     heartrates = []
+    high = False
+    high_periodes = []
     for value in dictionary['heartRateValues']:
-        timestamps.append(value[0])
-        heartrates.append(value[1])
+        if value[1] is not None:
+            timestamps.append(value[0])
+            heartrates.append(value[1])
+            if value[1] >= 100 and high == False:
+                high = True
+                start_time = datetime.fromtimestamp(value[0]/1000, tz=local_tz).strftime("%H:%M")
+            elif value[1] < 100 and high == True:
+                high = False
+                end_time = datetime.fromtimestamp(value[0]/1000, tz=local_tz).strftime("%H:%M")
+                high_periodes.append((start_time, end_time))
+
 
     # Convert the timestamps to datetime objects
-    timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
+    timestamps = [datetime.strptime(datetime.fromtimestamp(ts/1000, tz=local_tz).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
 
     plt.figure(figsize=(12, 6))
     plt.grid(True)
@@ -26,6 +41,13 @@ def hr_reader(date):
     plt.ylabel('FC')
 
     plt.show()
+
+    print("A sua frequência cardíaca esteve bastante alta nos seguintes períodos:")
+    for periodo in high_periodes:
+        print(periodo[0] + ' - ' + periodo[1])
+    print('''Se estes períodos não corresponderam a momentos de atividade física, o ritmo cardíaco acelerado pode dever-se a momentos de stress. Tente determinar o que poderá ter causado este stress adicional e tome ações de forma a evitá-lo. Caso não encontre nenhuma explicação plausível e isto fôr um fenómeno recorrente, consulte o seu médico, pois podem tratar-se de eventos de arritmia. Note que após uma atividade física intensiva, o ritmo cardíaco pode demorar algum tempo até estabilizar de novo no seu ritmo habitual.\n''')
+
+    return mean(heartrates)
 
 def steps_reader(date):
     file = f'data\Steps\{date}.json'
@@ -63,7 +85,7 @@ def resp_reader(date):
         respiration.append(value[1])
 
     # Convert the timestamps to datetime objects
-    timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
+    timestamps = [datetime.strptime(datetime.fromtimestamp(ts/1000, tz=local_tz).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
 
     plt.figure(figsize=(12, 6))
     plt.grid(True)
@@ -87,7 +109,7 @@ def spo2_reader(date):
         spo2.append(value[1])
 
     # Convert the timestamps to datetime objects
-    timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
+    timestamps = [datetime.strptime(datetime.fromtimestamp(ts/1000, tz=local_tz).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
 
     plt.figure(figsize=(12, 6))
     plt.grid(True)
@@ -115,12 +137,16 @@ def sleep_reader(date):
     # Convert the timestamps_mov to datetime objects
     timestamps_mov = [datetime.strptime(ts, '%Y-%m-%dT%H:%M:%S.%f') for ts in timestamps_mov]
 
-    for value in dictionary['sleepStress']:
-        timestamps_stress.append(value['startGMT'])
-        stress.append(value['value'])
+    # for value in dictionary['sleepStress']:
+    #     timestamps_stress.append(value['startGMT'])
+    #     stress.append(value['value'])
+
+    for value in dictionary['wellnessEpochRespirationDataDTOList']:
+        timestamps_stress.append(value['startTimeGMT'])
+        stress.append(value['respirationValue'])
 
     # Convert the timestamps_stress to datetime objects
-    timestamps_stress = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps_stress]
+    timestamps_stress = [datetime.strptime(datetime.fromtimestamp(ts/1000, tz=local_tz).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps_stress]
 
     fig, ax = plt.subplots(figsize=(12, 6))
     ax.set_title('Sleep Movement and Stress')
@@ -188,7 +214,7 @@ def body_battery_reader(date):
             battery.append(instance[1])
 
     # Convert the timestamps_stress to datetime objects
-    timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
+    timestamps = [datetime.strptime(datetime.fromtimestamp(ts/1000, tz=local_tz).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
 
     fig, ax = plt.subplots(2, 1, figsize=(12, 6))
     barWidth = 0.25
@@ -226,7 +252,7 @@ def stress_reader(date):
         values.append(value[1])
 
     # Convert the timestamps to datetime objects
-    timestamps = [datetime.strptime(datetime.utcfromtimestamp(ts/1000).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
+    timestamps = [datetime.strptime(datetime.fromtimestamp(ts/1000, tz=local_tz).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps]
 
     plt.figure(figsize=(12, 6))
     plt.grid(True)

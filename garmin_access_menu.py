@@ -31,34 +31,47 @@ from json_readers import(
     stress_reader
 )
 
+from populateAIO import sendToAIO
+
+from data.Heart_rate.feedback import feedback_hr
+from data.Sleep.feedback import feedback_sleep
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 email = ''
 password = ''
 api = None
+# Escolher dia do qual quer obter os dados
+while True:
+   try:
+       dia = int(input('Introduza o dia que quer visualizar (0-hoje; 1-ontem; 2-há 2 dias;...): '))
+       if dia >= 0:
+           break
+       else:
+           print('Introduza um número válido.')
+   except ValueError as e:
+       print('Introduza um número válido')
 
-today = datetime.date.today() - datetime.timedelta(days=1)
+today = datetime.date.today() - datetime.timedelta(days=dia)
+print('today: ', today)
 startdate = today - datetime.timedelta(days=7) # Selecionar a última semana
 start = 0
 limit = 100
 activitytype = ""  # Valores possíveis: cycling, running, swimming, multi_sport, fitness_equipment, hiking, walking, other
 
 menu_options = {
-    "1": f"Informação de atividades em '{today.isoformat()}'",
+    "1": f"Resumo do dia em '{today.isoformat()}'",
     "2": f"Informação estatística e composição corporal em '{today.isoformat()}'", # Composição corporal inexistente porque não registo peso nem ingestão de água
     "3": f"Passos em '{today.isoformat()}'",
     "4": f"Passos desde '{startdate.isoformat()}' até '{today.isoformat()}'",
     "5": f"Dados de frequência cardíaca em '{today.isoformat()}'",
     "6": f"Registo da bateria corporal desde '{startdate.isoformat()}' até '{today.isoformat()}'",
     "7": f"Condição de treino em '{today.isoformat()}'", # Este não funciona tão bem porque não tenho corrido
-    "8": f"Frequência cardíaca em repouso em {today.isoformat()}'",
-    "9": f"Informação sobre hidratação '{today.isoformat()}'",
     "0": f"Dados de sono em '{today.isoformat()}'",
     "a": f"Dados de stress em '{today.isoformat()}'",
     "b": f"Dados da frequência respiratória em '{today.isoformat()}'",
     "c": f"Dados de SpO2 em '{today.isoformat()}'",
-    "d": f"Métricas máximas (vo2Max e fitnessAge) em '{today.isoformat()}'",
     "e": f"Atividades desde início '{start}' até '{limit}'",
     "f": "Última atividade",
     "g": f"Resumo da progressão física desde '{startdate.isoformat()}' até '{today.isoformat()}' para todas as métricas",
@@ -162,11 +175,26 @@ def switch(api, i):
             # USER STATISTIC SUMMARIES
             if i == "1":
                 # Get activity data for 'YYYY-MM-DD'
-                display_json(f"api.get_stats('{today.isoformat()}')", api.get_stats(today.isoformat()))
+                f = open(f'test_activity_today{today.isoformat()}.json', 'w')
+                f.write(create_json(api.get_stats(today.isoformat())))
+                f.close()
+
+                filename = f'test_activity_today{today.isoformat()}.json'
+                temp_filename = f'{filename}.tmp'
+                with open(temp_filename, 'w') as temp_f:
+                    with open(filename, 'r') as f:
+                        dic = json.load(f)
+                    new_dic = {key: value for key, value in dic.items() if value is not None}
+                    json.dump(new_dic, temp_f, indent=4)
+                os.replace(temp_filename, filename)
+
 
             elif i == "2":
                 # Get stats and body composition data for 'YYYY-MM-DD'
-                display_json(f"api.get_stats_and_body('{today.isoformat()}')", api.get_stats_and_body(today.isoformat()))
+                f = open(f'test_stats{today.isoformat()}.json', 'w')
+                f.write(create_json(api.get_stats_and_body(today.isoformat())))
+                f.close()
+
 
             # USER STATISTICS LOGGED
             elif i == "3":
@@ -188,7 +216,9 @@ def switch(api, i):
                 f = open(f'data/Heart_rate/{today.isoformat()}.json', 'w')
                 f.write(create_json(api.get_heart_rates(today.isoformat())))
                 f.close()
-                hr_reader(f'{today.isoformat()}')
+                mHr = hr_reader(f'{today.isoformat()}')
+                sendToAIO('garmin-data.heart-rate', mHr)
+                feedback_hr()
             
             elif i == "6":
                 # Get daily body battery data for 'YYYY-MM-DD' to 'YYYY-MM-DD'
@@ -199,22 +229,18 @@ def switch(api, i):
                 
             elif i == "7":
                 # Get training status data for 'YYYY-MM-DD'
-                display_json(f"api.get_training_status('{today.isoformat()}')", api.get_training_status(today.isoformat()))
+                f = open(f'test_train_status{today.isoformat()}.json', 'w')
+                f.write(create_json(api.get_training_status(today.isoformat())))
+                f.close()
             
-            elif i == "8":
-                # Get resting heart rate data for 'YYYY-MM-DD'
-                display_json(f"api.get_rhr_day('{today.isoformat()}')", api.get_rhr_day(today.isoformat()))
-            
-            elif i == "9":
-                # Get hydration data 'YYYY-MM-DD'
-                display_json(api.get_hydration_data(today.isoformat()))
-                
             elif i == "0":
                 # Get sleep data for 'YYYY-MM-DD'
                 f = open(f'data/Sleep/{today.isoformat()}.json', 'w')
                 f.write(create_json(api.get_sleep_data(today.isoformat())))
                 f.close()
                 sleep_reader(f'{today.isoformat()}')
+                duration = feedback_sleep(today)
+                sendToAIO('garmin-data.sleep', duration)
 
             elif i == "a":
                 # Get stress data for 'YYYY-MM-DD'
@@ -237,26 +263,48 @@ def switch(api, i):
                 f.close()
                 spo2_reader(f'{today.isoformat()}')
             
-            elif i == "d":
-                # Get max metric data (like vo2MaxValue and fitnessAge) for 'YYYY-MM-DD'
-                display_json(f"api.get_max_metrics('{today.isoformat()}')", api.get_max_metrics(today.isoformat()))
-
             # ACTIVITIES
             elif i == "e":
                 # Get activities data from start and limit
-                display_json(f"api.get_activities({start}, {limit})", api.get_activities(start, limit)) # 0=start, 1=limit
+                f = open(f'test_activities{today.isoformat()}.json', 'w')
+                f.write(create_json(api.get_activities(start, limit))) # 0=start, 1=limit
+                f.close()
+
+                filename = f'test_activities{today.isoformat()}.json'
+                temp_filename = f'{filename}.tmp'
+                with open(temp_filename, 'w') as temp_f:
+                    with open(filename, 'r') as f:
+                        new_list = []
+                        list = json.load(f)
+                    for dic in list:
+                        new_dic = {key: value for key, value in dic.items() if value is not None}
+                        new_list.append(new_dic)
+
+                    json.dump(new_list, temp_f, indent=4)
+                os.replace(temp_filename, filename)
             
             elif i == "f":
                 # Get last activity
-                display_json("api.get_last_activity()", api.get_last_activity())
+                f = open(f'test_last_activity{today.isoformat()}.json', 'w')
+                f.write(create_json(api.get_last_activity()))
+                f.close()
+
+                filename = f'test_last_activity{today.isoformat()}.json'
+                temp_filename = f'{filename}.tmp'
+                with open(temp_filename, 'w') as temp_f:
+                    with open(filename, 'r') as f:
+                        dic = json.load(f)
+                    new_dic = {key: value for key, value in dic.items() if value is not None}
+                    json.dump(new_dic, temp_f, indent=4)
+                os.replace(temp_filename, filename)
 
             elif i == "g":
                 # Get progress summary
+                f = open(f'test_progress{today.isoformat()}.json', 'w')
                 for metric in ["elevationGain", "duration", "distance", "movingDuration"]:
-                    display_json(
-                        f"api.get_progress_summary_between_dates({today.isoformat()})", api.get_progress_summary_between_dates(
-                            startdate.isoformat(), today.isoformat(), metric
-                        ))
+                    f.write(create_json(
+                        api.get_progress_summary_between_dates(startdate.isoformat(), today.isoformat(), metric)))
+                f.close()
 
             elif i == "Z":
                 # Logout Garmin Connect portal
