@@ -41,8 +41,8 @@ from data.Steps.feedback import feedback_day_steps
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-email = 'tomas.a.lima@gmail.com'
-password = 'Xuub44103976'
+email = ''
+password = ''
 api = None
 # Escolher dia do qual quer obter os dados
 while True:
