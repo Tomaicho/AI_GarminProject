@@ -11,7 +11,8 @@ today = datetime.date.today()
 def feedback_hr(date, mHr):
     files = glob.glob( 'C:/Users/tomas/Desktop/Mestrado/1A_2S/Ambientes Inteligentes/Trabalho_1/AI_GarminProject/data/Heart_rate/*.json') #only process .JSON files in folder.
     restHrsList = []
-    for filename in  files[-31:]:   
+    for filename in  files[-31:]: 
+        print(filename)  
         with open(filename, encoding='utf-8', mode='r') as currentFile:
             data=currentFile.read().replace('\n', '')
             rHr = json.loads(data)["restingHeartRate"]
@@ -33,7 +34,7 @@ def feedback_hr(date, mHr):
     # Só podemos cruzar dados com o weather para hoje porque não temos acesso ao histórico do openweather. Ponto a melhorar
     if date == today:
         #https://openweathermap.org/current
-        api_key = ""
+        api_key = "1815b00ff2a442b47275a37e603cdf08"
 
         #url
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -48,18 +49,19 @@ def feedback_hr(date, mHr):
         full_url = base_url + "appid=" + api_key + "&q=" + city_name + graus
         response = requests.get(full_url)
         x = response.json()
-
         if x["cod"] != "404":
             y = x["main"]
             if mHr > 72:
                 if y["humidity"] > 95 and y["temp"] > 30:
-                    print(f'Hoje a sua frequência cardíaca foi bastante superior à média dos últimos 30 dias. Contudo, isto pode ter-se devido aos elevados valores de humidade {y["humidity"]} e temperatura {y["temp"]} sentidos.\n')
+                    print(f'\nHoje a sua frequência cardíaca foi bastante superior à média dos últimos 30 dias. Contudo, isto pode ter-se devido aos elevados valores de humidade {y["humidity"]} e temperatura {y["temp"]} sentidos.\n')
                 elif y["humidity"] > 95 and y["temp"] < 30:
-                    print(f'Hoje a sua frequência cardíaca foi bastante superior à média dos últimos 30 dias. Contudo, isto pode ter-se devido aos elevados valores de humidade {y["humidity"]} sentidos.\n')
+                    print(f'\nHoje a sua frequência cardíaca foi bastante superior à média dos últimos 30 dias. Contudo, isto pode ter-se devido aos elevados valores de humidade {y["humidity"]} sentidos.\n')
                 elif y["humidity"] < 95 and y["temp"] > 30:
-                    print(f'Hoje a sua frequência cardíaca foi bastante superior à média dos últimos 30 dias. Contudo, isto pode ter-se devido aos elevados valores de temperatura {y["temp"]} sentidos.\n')
+                    print(f'\nHoje a sua frequência cardíaca foi bastante superior à média dos últimos 30 dias. Contudo, isto pode ter-se devido aos elevados valores de temperatura {y["temp"]} sentidos.\n')
                 else:
-                    print('Hoje a sua frequência cardíaca foi bastante superior à média dos últimos 30 dias.\n')
+                    print('\nHoje a sua frequência cardíaca foi bastante superior à média dos últimos 30 dias.\n')
 
+            else:
+                print('\nHoje a sua frequência cardíaca esteve dentro dos padrões normais dos últimos 30 dias.\n')
         else:
-            print('Hoje a sua frequência cardíaca esteve dentro da média dos últimos 30 dias.\n')
+            print('\nSem dados metereológicos para essa localização.')

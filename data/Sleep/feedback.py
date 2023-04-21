@@ -27,8 +27,11 @@ def feedback_sleep(date):
     sleep_periodes = []
     sleep_duration = timedelta(0)
     with open(today, encoding='utf-8', mode='r') as currentFile:
-            data=currentFile.read().replace('\n', '')
-            sleepMovList = json.loads(data)["sleepMovement"]
+            # data=currentFile.read().replace('\n', '')
+            print(currentFile)
+            data = json.load(currentFile)
+            # print(data)
+            sleepMovList = data["sleepMovement"]
             for mov_entry in sleepMovList:
                 activity = mov_entry["activityLevel"]
                 ts = mov_entry['startGMT']

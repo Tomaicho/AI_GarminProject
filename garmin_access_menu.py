@@ -41,8 +41,8 @@ from data.Steps.feedback import feedback_day_steps
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-email = ''
-password = ''
+email = 'tomas.a.lima@gmail.com'
+password = 'Xuub44103976'
 api = None
 # Escolher dia do qual quer obter os dados
 while True:
@@ -207,7 +207,7 @@ def switch(api, i):
                 f.write(create_json(api.get_heart_rates(today.isoformat())))
                 f.close()
                 mHr = hr_reader(f'{today.isoformat()}')
-                sendToAIO('garmin-data.heart-rate', mHr)
+                sendToAIO('garmin-data.heart-rate', 75)
                 feedback_hr(today, mHr)
             
             elif i == "6":

@@ -81,7 +81,7 @@ def feedback_day_steps(date):
         print(f'{interval[0]} - {interval[1]}')
 
     if total_steps < 10000:
-        print('Hoje, o seu nível de atividade resgistada em número de passos foi baixo. Procure reduzir o seu sedentarismo dedicando algum tempo do seu dia à prática de atividade física. O sedentarismo prolongado pode levar a diversos problemas de saúde, desde imunodepressão a complicações articulares.')
+        print('\nHoje, o seu nível de atividade resgistada em número de passos foi baixo. Procure reduzir o seu sedentarismo dedicando algum tempo do seu dia à prática de atividade física. O sedentarismo prolongado pode levar a diversos problemas de saúde, desde imunodepressão a complicações articulares.')
     else:
-        print("O número de passos registados hoje indica que teve um dia bastante ativo. Continue assim para manter uma vida saudável!")
+        print("\nO número de passos registados hoje indica que teve um dia bastante ativo. Continue assim para manter uma vida saudável!")
 

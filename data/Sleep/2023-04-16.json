@@ -3192,3611 +3192,3250 @@
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:37:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:38:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:39:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 27,
-            "spo2Mode": null
+            "readingConfidence": 27
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:40:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:41:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:42:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:43:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:44:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:45:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 5,
-            "spo2Mode": null
+            "readingConfidence": 5
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:49:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:50:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:51:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 34,
-            "spo2Mode": null
+            "readingConfidence": 34
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:55:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:56:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 4,
-            "spo2Mode": null
+            "readingConfidence": 4
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:57:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:58:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T00:59:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:01:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 20,
-            "spo2Mode": null
+            "readingConfidence": 20
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:02:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:03:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:04:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 27,
-            "spo2Mode": null
+            "readingConfidence": 27
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:05:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:06:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:07:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:08:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:09:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:10:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:11:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:12:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:13:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:14:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:15:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:16:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:17:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:18:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:19:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:20:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:21:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:22:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:23:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:24:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:25:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:26:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:27:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:28:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:29:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:30:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:31:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:32:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:33:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:34:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:35:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:36:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:37:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:38:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:53:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:54:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 88,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:55:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 88,
-            "readingConfidence": 30,
-            "spo2Mode": null
+            "readingConfidence": 30
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:56:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 87,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:57:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 20,
-            "spo2Mode": null
+            "readingConfidence": 20
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:58:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 36,
-            "spo2Mode": null
+            "readingConfidence": 36
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T01:59:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 87,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:00:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 88,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:01:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 32,
-            "spo2Mode": null
+            "readingConfidence": 32
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:02:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:03:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:04:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 37,
-            "spo2Mode": null
+            "readingConfidence": 37
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:05:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 24,
-            "spo2Mode": null
+            "readingConfidence": 24
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:06:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 33,
-            "spo2Mode": null
+            "readingConfidence": 33
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:07:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 45,
-            "spo2Mode": null
+            "readingConfidence": 45
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:08:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:09:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 25,
-            "spo2Mode": null
+            "readingConfidence": 25
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:10:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 44,
-            "spo2Mode": null
+            "readingConfidence": 44
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:11:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 35,
-            "spo2Mode": null
+            "readingConfidence": 35
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:12:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:13:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:14:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 32,
-            "spo2Mode": null
+            "readingConfidence": 32
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:15:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:16:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:17:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:18:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:19:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:20:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:21:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:22:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 53,
-            "spo2Mode": null
+            "readingConfidence": 53
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:26:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:27:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:28:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:29:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:30:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:31:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:32:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:33:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:34:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:35:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 20,
-            "spo2Mode": null
+            "readingConfidence": 20
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:36:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:37:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:38:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:39:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 100,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:40:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:41:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 100,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:42:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:43:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 100,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:44:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:45:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:46:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:47:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:48:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:49:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:50:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:51:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:52:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 31,
-            "spo2Mode": null
+            "readingConfidence": 31
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:53:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:54:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:55:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:56:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:57:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 28,
-            "spo2Mode": null
+            "readingConfidence": 28
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:58:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T02:59:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:00:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 25,
-            "spo2Mode": null
+            "readingConfidence": 25
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:01:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:02:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:03:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:04:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:05:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 26,
-            "spo2Mode": null
+            "readingConfidence": 26
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:06:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:07:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:08:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:09:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:10:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:11:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:12:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:13:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:14:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:15:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:16:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 20,
-            "spo2Mode": null
+            "readingConfidence": 20
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:17:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 29,
-            "spo2Mode": null
+            "readingConfidence": 29
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:18:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:19:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:20:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:21:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:22:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:23:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:24:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:25:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:26:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:27:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 23,
-            "spo2Mode": null
+            "readingConfidence": 23
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:28:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:29:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:30:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:31:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:32:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:33:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:34:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 32,
-            "spo2Mode": null
+            "readingConfidence": 32
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:35:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:36:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:37:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:38:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:39:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:40:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 24,
-            "spo2Mode": null
+            "readingConfidence": 24
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:41:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:42:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:43:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:44:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:45:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:46:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 24,
-            "spo2Mode": null
+            "readingConfidence": 24
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:47:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:48:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 32,
-            "spo2Mode": null
+            "readingConfidence": 32
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:49:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 24,
-            "spo2Mode": null
+            "readingConfidence": 24
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:50:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:51:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 23,
-            "spo2Mode": null
+            "readingConfidence": 23
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:52:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 31,
-            "spo2Mode": null
+            "readingConfidence": 31
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:53:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 28,
-            "spo2Mode": null
+            "readingConfidence": 28
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:54:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 38,
-            "spo2Mode": null
+            "readingConfidence": 38
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:55:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 55,
-            "spo2Mode": null
+            "readingConfidence": 55
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:56:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 36,
-            "spo2Mode": null
+            "readingConfidence": 36
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:57:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:58:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 32,
-            "spo2Mode": null
+            "readingConfidence": 32
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T03:59:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:00:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:01:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 26,
-            "spo2Mode": null
+            "readingConfidence": 26
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:02:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:03:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 39,
-            "spo2Mode": null
+            "readingConfidence": 39
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:04:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:05:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:06:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:07:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:08:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 23,
-            "spo2Mode": null
+            "readingConfidence": 23
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:09:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:10:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:11:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 5,
-            "spo2Mode": null
+            "readingConfidence": 5
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:12:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:13:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:14:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:15:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:16:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 29,
-            "spo2Mode": null
+            "readingConfidence": 29
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:17:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 24,
-            "spo2Mode": null
+            "readingConfidence": 24
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:18:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:19:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:20:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:21:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 25,
-            "spo2Mode": null
+            "readingConfidence": 25
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:22:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 34,
-            "spo2Mode": null
+            "readingConfidence": 34
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:23:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 38,
-            "spo2Mode": null
+            "readingConfidence": 38
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:24:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:25:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 23,
-            "spo2Mode": null
+            "readingConfidence": 23
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:26:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 21,
-            "spo2Mode": null
+            "readingConfidence": 21
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:27:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:28:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:29:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:30:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 24,
-            "spo2Mode": null
+            "readingConfidence": 24
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:31:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:32:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 100,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:33:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:34:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:35:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:36:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:37:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:38:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:39:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:40:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:41:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 3,
-            "spo2Mode": null
+            "readingConfidence": 3
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:42:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:43:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:44:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:45:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:46:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:47:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:48:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:49:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:50:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:51:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:52:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:53:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:54:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:55:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:56:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:57:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:58:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T04:59:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:00:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:01:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:02:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 5,
-            "spo2Mode": null
+            "readingConfidence": 5
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:03:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:04:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:05:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:06:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 6,
-            "spo2Mode": null
+            "readingConfidence": 6
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:07:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:08:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:09:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:10:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:11:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:12:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:13:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:14:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 98,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:15:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 4,
-            "spo2Mode": null
+            "readingConfidence": 4
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:16:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:17:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:18:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:19:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 26,
-            "spo2Mode": null
+            "readingConfidence": 26
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:20:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 48,
-            "spo2Mode": null
+            "readingConfidence": 48
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:21:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 25,
-            "spo2Mode": null
+            "readingConfidence": 25
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:22:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:23:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:24:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 50,
-            "spo2Mode": null
+            "readingConfidence": 50
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:25:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:26:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 27,
-            "spo2Mode": null
+            "readingConfidence": 27
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:27:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 27,
-            "spo2Mode": null
+            "readingConfidence": 27
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:28:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 99,
-            "readingConfidence": 33,
-            "spo2Mode": null
+            "readingConfidence": 33
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:29:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 31,
-            "spo2Mode": null
+            "readingConfidence": 31
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:30:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 35,
-            "spo2Mode": null
+            "readingConfidence": 35
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:31:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:32:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:33:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:34:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 30,
-            "spo2Mode": null
+            "readingConfidence": 30
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:35:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:36:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:37:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:38:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 33,
-            "spo2Mode": null
+            "readingConfidence": 33
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:39:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 25,
-            "spo2Mode": null
+            "readingConfidence": 25
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:40:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:41:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:42:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 24,
-            "spo2Mode": null
+            "readingConfidence": 24
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:43:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:44:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:45:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:46:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 24,
-            "spo2Mode": null
+            "readingConfidence": 24
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:47:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 28,
-            "spo2Mode": null
+            "readingConfidence": 28
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:48:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 32,
-            "spo2Mode": null
+            "readingConfidence": 32
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:49:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 36,
-            "spo2Mode": null
+            "readingConfidence": 36
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:50:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 40,
-            "spo2Mode": null
+            "readingConfidence": 40
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:51:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 30,
-            "spo2Mode": null
+            "readingConfidence": 30
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:52:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:53:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:54:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 20,
-            "spo2Mode": null
+            "readingConfidence": 20
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:55:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 11,
-            "spo2Mode": null
+            "readingConfidence": 11
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:56:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:57:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:58:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 18,
-            "spo2Mode": null
+            "readingConfidence": 18
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T05:59:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:00:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:01:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 23,
-            "spo2Mode": null
+            "readingConfidence": 23
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:02:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 88,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:04:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:08:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:09:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 5,
-            "spo2Mode": null
+            "readingConfidence": 5
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:10:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 89,
-            "readingConfidence": 4,
-            "spo2Mode": null
+            "readingConfidence": 4
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:11:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 90,
-            "readingConfidence": 39,
-            "spo2Mode": null
+            "readingConfidence": 39
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:12:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 26,
-            "spo2Mode": null
+            "readingConfidence": 26
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:13:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 29,
-            "spo2Mode": null
+            "readingConfidence": 29
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:14:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:15:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 29,
-            "spo2Mode": null
+            "readingConfidence": 29
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:16:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:17:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:18:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:19:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:20:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:21:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 7,
-            "spo2Mode": null
+            "readingConfidence": 7
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:22:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 50,
-            "spo2Mode": null
+            "readingConfidence": 50
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:23:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 46,
-            "spo2Mode": null
+            "readingConfidence": 46
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:24:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 35,
-            "spo2Mode": null
+            "readingConfidence": 35
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:25:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:26:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:27:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:28:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 22,
-            "spo2Mode": null
+            "readingConfidence": 22
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:29:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 32,
-            "spo2Mode": null
+            "readingConfidence": 32
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:30:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 23,
-            "spo2Mode": null
+            "readingConfidence": 23
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:31:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 91,
-            "readingConfidence": 27,
-            "spo2Mode": null
+            "readingConfidence": 27
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:32:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:33:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 5,
-            "spo2Mode": null
+            "readingConfidence": 5
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:34:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 5,
-            "spo2Mode": null
+            "readingConfidence": 5
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:35:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:36:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 20,
-            "spo2Mode": null
+            "readingConfidence": 20
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:37:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 92,
-            "readingConfidence": 23,
-            "spo2Mode": null
+            "readingConfidence": 23
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:38:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 12,
-            "spo2Mode": null
+            "readingConfidence": 12
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:39:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 42,
-            "spo2Mode": null
+            "readingConfidence": 42
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:40:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:41:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:42:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 25,
-            "spo2Mode": null
+            "readingConfidence": 25
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:43:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 14,
-            "spo2Mode": null
+            "readingConfidence": 14
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:44:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 17,
-            "spo2Mode": null
+            "readingConfidence": 17
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:45:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:46:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 8,
-            "spo2Mode": null
+            "readingConfidence": 8
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:47:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 20,
-            "spo2Mode": null
+            "readingConfidence": 20
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:48:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:49:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:50:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:51:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:52:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 93,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:53:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 97,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:54:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 9,
-            "spo2Mode": null
+            "readingConfidence": 9
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:55:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:56:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 15,
-            "spo2Mode": null
+            "readingConfidence": 15
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:57:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 13,
-            "spo2Mode": null
+            "readingConfidence": 13
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:58:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 96,
-            "readingConfidence": 37,
-            "spo2Mode": null
+            "readingConfidence": 37
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T06:59:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 95,
-            "readingConfidence": 10,
-            "spo2Mode": null
+            "readingConfidence": 10
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T07:00:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 16,
-            "spo2Mode": null
+            "readingConfidence": 16
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T07:02:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T07:06:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T07:10:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T07:14:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 2,
-            "spo2Mode": null
+            "readingConfidence": 2
         },
         {
             "userProfilePK": 91082551,
             "epochTimestamp": "2023-04-16T07:15:00.0",
             "deviceId": 3346642719,
-            "calendarDate": "2023-04-16",
+            "calendarDate": "2023-04-16T00:00:00.0",
             "epochDuration": 60,
             "spo2Reading": 94,
-            "readingConfidence": 19,
-            "spo2Mode": null
+            "readingConfidence": 19
         }
     ],
     "wellnessEpochRespirationDataDTOList": [

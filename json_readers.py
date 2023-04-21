@@ -22,7 +22,7 @@ def hr_reader(date):
             if value[1] >= 100 and high == False:
                 high = True
                 start_time = datetime.fromtimestamp(value[0]/1000, tz=local_tz).strftime("%H:%M")
-            elif value[1] < 100 and high == True:
+            elif value[1] < 95 and high == True:
                 high = False
                 end_time = datetime.fromtimestamp(value[0]/1000, tz=local_tz).strftime("%H:%M")
                 high_periodes.append((start_time, end_time))
@@ -187,8 +187,15 @@ def week_steps_reader(date):
     ax.set_ylabel("Nº passos", color="red")
 
     ax2=ax.twinx()
-    ax2.plot(dates, distance, color="blue")
-    ax2.set_ylabel("Distância (m)",color="blue", label ='Distância de passos')
+    ax2.plot(dates, distance, color="blue", label ='Distância')
+    ax2.set_ylabel("Distância (m)",color="blue")
+
+    # plt.legend(['Nº de passos', 'Objetivo de passos', 'Distância'], loc ="upper left")
+
+    # Create legend handles and labels
+    lines, labels = ax.get_legend_handles_labels()
+    lines2, labels2 = ax2.get_legend_handles_labels()
+    plt.legend(lines + lines2, labels + labels2)
 
     plt.show()
 
