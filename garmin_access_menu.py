@@ -207,7 +207,7 @@ def switch(api, i):
                 f.write(create_json(api.get_heart_rates(today.isoformat())))
                 f.close()
                 mHr = hr_reader(f'{today.isoformat()}')
-                sendToAIO('garmin-data.heart-rate', 75)
+                sendToAIO('garmin-data.heart-rate', mHr)
                 feedback_hr(today, mHr)
             
             elif i == "6":
@@ -225,7 +225,7 @@ def switch(api, i):
                 f.close()
                 sleep_reader(f'{today.isoformat()}')
                 duration = feedback_sleep(today)
-                sendToAIO('garmin-data.sleep', 300)
+                sendToAIO('garmin-data.sleep', duration)
 
             elif i == "8":
                 # Get stress data for 'YYYY-MM-DD'
