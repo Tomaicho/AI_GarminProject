@@ -36,6 +36,7 @@ from populateAIO import sendToAIO
 from data.Heart_rate.feedback import feedback_hr
 from data.Sleep.feedback import feedback_sleep
 from data.Body_Battery.feedback import feedback_bodybattery
+from data.Steps.feedback import feedback_day_steps
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -191,6 +192,7 @@ def switch(api, i):
                 f.write(create_json(api.get_steps_data(today.isoformat())))
                 f.close()
                 steps_reader(f'{today.isoformat()}')
+                feedback_day_steps(today)
 
             elif i == "4":
                 # Get daily step data for 'YYYY-MM-DD'
