@@ -23,7 +23,7 @@ def feedback_day_steps(date):
             steps = interval['steps']
             total_steps += steps
             #Sedentário
-            if steps < 200:
+            if steps < 300:
                 total_time_sedentary += 15
                 if sedentary == False:
                     sedentary = True
@@ -38,7 +38,7 @@ def feedback_day_steps(date):
                     sedentary_intervals.append((start_time_s,end_time_s))
             
             #Ativo
-            if 200 <= steps < 700:
+            if 300 <= steps < 1000:
                 total_time_active += 15
                 if active == False:
                     active = True
@@ -53,7 +53,7 @@ def feedback_day_steps(date):
                     active_intervals.append((start_time_a, end_time_a))
 
             #Muito ativo
-            if steps >= 700:
+            if steps >= 1000:
                 total_time_highlyactive += 15
                 if highly_active == False:
                     highly_active = True
@@ -67,30 +67,21 @@ def feedback_day_steps(date):
                     end_time_ha = end_time_ha.strftime("%H:%M")
                     highly_active_intervals.append((start_time_ha, end_time_ha))
     
-    print('Intervalos :')
+    print('Intervalos temporais agrupados por nível de atividade\n(ATENÇÃO: este nível de atividade diz apenas respeito aos passos registados pelo acelerómetro. Atividades como ciclismo não são tidas em conta por não haver movimento do braço.)')
+    print('-> Sedentário:')
     for interval in sedentary_intervals:
         print(f'{interval[0]} - {interval[1]}')
     
-    print('ativo:')
+    print('\n-> Ativo:')
     for interval in active_intervals:
         print(f'{interval[0]} - {interval[1]}')
     
-    print('muito-ativo:')
+    print('\n-> Muito ativo:')
     for interval in highly_active_intervals:
         print(f'{interval[0]} - {interval[1]}')
 
-    
-    timestamps = [t[0] for t in status_list]
-    status = [s[1] for s in status_list]
-
-    plt.figure(figsize=(12, 6))
-    plt.grid(True)
-
-    ## LINE GRAPH ##
-    plt.title(f'Nível de atividade ao longo do dia: {date}')
-    plt.plot(timestamps, status, color='maroon', marker='o')
-    plt.xlabel('Hora')
-    plt.ylabel('Nível de atividade')
-
-    plt.show()
+    if total_steps < 10000:
+        print('Hoje, o seu nível de atividade resgistada em número de passos foi baixo. Procure reduzir o seu sedentarismo dedicando algum tempo do seu dia à prática de atividade física. O sedentarismo prolongado pode levar a diversos problemas de saúde, desde imunodepressão a complicações articulares.')
+    else:
+        print("O número de passos registados hoje indica que teve um dia bastante ativo. Continue assim para manter uma vida saudável!")
 

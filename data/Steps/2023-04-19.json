@@ -342,5 +342,429 @@
         "pushes": 0,
         "primaryActivityLevel": "sedentary",
         "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T09:45:00.0",
+        "endGMT": "2023-04-19T10:00:00.0",
+        "steps": 113,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T10:00:00.0",
+        "endGMT": "2023-04-19T10:15:00.0",
+        "steps": 107,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T10:15:00.0",
+        "endGMT": "2023-04-19T10:30:00.0",
+        "steps": 13,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T10:30:00.0",
+        "endGMT": "2023-04-19T10:45:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T10:45:00.0",
+        "endGMT": "2023-04-19T11:00:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T11:00:00.0",
+        "endGMT": "2023-04-19T11:15:00.0",
+        "steps": 9,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T11:15:00.0",
+        "endGMT": "2023-04-19T11:30:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T11:30:00.0",
+        "endGMT": "2023-04-19T11:45:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T11:45:00.0",
+        "endGMT": "2023-04-19T12:00:00.0",
+        "steps": 242,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T12:00:00.0",
+        "endGMT": "2023-04-19T12:15:00.0",
+        "steps": 51,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T12:15:00.0",
+        "endGMT": "2023-04-19T12:30:00.0",
+        "steps": 496,
+        "pushes": 0,
+        "primaryActivityLevel": "active",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T12:30:00.0",
+        "endGMT": "2023-04-19T12:45:00.0",
+        "steps": 587,
+        "pushes": 0,
+        "primaryActivityLevel": "active",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T12:45:00.0",
+        "endGMT": "2023-04-19T13:00:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T13:00:00.0",
+        "endGMT": "2023-04-19T13:15:00.0",
+        "steps": 9,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T13:15:00.0",
+        "endGMT": "2023-04-19T13:30:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T13:30:00.0",
+        "endGMT": "2023-04-19T13:45:00.0",
+        "steps": 9,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T13:45:00.0",
+        "endGMT": "2023-04-19T14:00:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T14:00:00.0",
+        "endGMT": "2023-04-19T14:15:00.0",
+        "steps": 54,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T14:15:00.0",
+        "endGMT": "2023-04-19T14:30:00.0",
+        "steps": 41,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T14:30:00.0",
+        "endGMT": "2023-04-19T14:45:00.0",
+        "steps": 9,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T14:45:00.0",
+        "endGMT": "2023-04-19T15:00:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T15:00:00.0",
+        "endGMT": "2023-04-19T15:15:00.0",
+        "steps": 17,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T15:15:00.0",
+        "endGMT": "2023-04-19T15:30:00.0",
+        "steps": 102,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T15:30:00.0",
+        "endGMT": "2023-04-19T15:45:00.0",
+        "steps": 132,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T15:45:00.0",
+        "endGMT": "2023-04-19T16:00:00.0",
+        "steps": 34,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T16:00:00.0",
+        "endGMT": "2023-04-19T16:15:00.0",
+        "steps": 595,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T16:15:00.0",
+        "endGMT": "2023-04-19T16:30:00.0",
+        "steps": 466,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T16:30:00.0",
+        "endGMT": "2023-04-19T16:45:00.0",
+        "steps": 113,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T16:45:00.0",
+        "endGMT": "2023-04-19T17:00:00.0",
+        "steps": 758,
+        "pushes": 0,
+        "primaryActivityLevel": "active",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T17:00:00.0",
+        "endGMT": "2023-04-19T17:15:00.0",
+        "steps": 160,
+        "pushes": 0,
+        "primaryActivityLevel": "active",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T17:15:00.0",
+        "endGMT": "2023-04-19T17:30:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "generic",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T17:30:00.0",
+        "endGMT": "2023-04-19T17:45:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "generic",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T17:45:00.0",
+        "endGMT": "2023-04-19T18:00:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "generic",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T18:00:00.0",
+        "endGMT": "2023-04-19T18:15:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "generic",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T18:15:00.0",
+        "endGMT": "2023-04-19T18:30:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "generic",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T18:30:00.0",
+        "endGMT": "2023-04-19T18:45:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "generic",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T18:45:00.0",
+        "endGMT": "2023-04-19T19:00:00.0",
+        "steps": 236,
+        "pushes": 0,
+        "primaryActivityLevel": "active",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T19:00:00.0",
+        "endGMT": "2023-04-19T19:15:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T19:15:00.0",
+        "endGMT": "2023-04-19T19:30:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T19:30:00.0",
+        "endGMT": "2023-04-19T19:45:00.0",
+        "steps": 260,
+        "pushes": 0,
+        "primaryActivityLevel": "active",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T19:45:00.0",
+        "endGMT": "2023-04-19T20:00:00.0",
+        "steps": 160,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T20:00:00.0",
+        "endGMT": "2023-04-19T20:15:00.0",
+        "steps": 74,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T20:15:00.0",
+        "endGMT": "2023-04-19T20:30:00.0",
+        "steps": 125,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T20:30:00.0",
+        "endGMT": "2023-04-19T20:45:00.0",
+        "steps": 60,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T20:45:00.0",
+        "endGMT": "2023-04-19T21:00:00.0",
+        "steps": 53,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T21:00:00.0",
+        "endGMT": "2023-04-19T21:15:00.0",
+        "steps": 59,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T21:15:00.0",
+        "endGMT": "2023-04-19T21:30:00.0",
+        "steps": 52,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T21:30:00.0",
+        "endGMT": "2023-04-19T21:45:00.0",
+        "steps": 58,
+        "pushes": 0,
+        "primaryActivityLevel": "generic",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T21:45:00.0",
+        "endGMT": "2023-04-19T22:00:00.0",
+        "steps": 273,
+        "pushes": 0,
+        "primaryActivityLevel": "highlyActive",
+        "activityLevelConstant": false
+    },
+    {
+        "startGMT": "2023-04-19T22:00:00.0",
+        "endGMT": "2023-04-19T22:15:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T22:15:00.0",
+        "endGMT": "2023-04-19T22:30:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T22:30:00.0",
+        "endGMT": "2023-04-19T22:45:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
+    },
+    {
+        "startGMT": "2023-04-19T22:45:00.0",
+        "endGMT": "2023-04-19T23:00:00.0",
+        "steps": 0,
+        "pushes": 0,
+        "primaryActivityLevel": "sedentary",
+        "activityLevelConstant": true
     }
 ]

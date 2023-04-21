@@ -35,9 +35,9 @@ def hr_reader(date):
     plt.grid(True)
 
     ## LINE GRAPH ##
-    plt.title(f'Heart rate {date}')
+    plt.title(f'Frequência cardíaca - dia {date}')
     plt.plot(timestamps, heartrates, color='maroon', marker='o')
-    plt.xlabel('timestamp')
+    plt.xlabel('Hora')
     plt.ylabel('FC')
 
     plt.show()
@@ -69,7 +69,7 @@ def steps_reader(date):
     ## LINE GRAPH ##
     plt.title(f'Passos {date}')
     plt.plot(timestamps, steps, color='maroon', marker='o')
-    plt.xlabel('timestamp')
+    plt.xlabel('hora')
     plt.ylabel('passos')
 
     plt.show()
@@ -91,10 +91,10 @@ def resp_reader(date):
     plt.grid(True)
 
     ## LINE GRAPH ##
-    plt.title(f'Respiration frequency {date}')
+    plt.title(f'Frequência respiratória - dia {date}')
     plt.plot(timestamps, respiration, color='maroon', marker='o')
-    plt.xlabel('timestamp')
-    plt.ylabel('Respiration')
+    plt.xlabel('hora')
+    plt.ylabel('Respiração/min')
 
     plt.show()
 
@@ -115,9 +115,9 @@ def spo2_reader(date):
     plt.grid(True)
 
     ## LINE GRAPH ##
-    plt.title(f'Spo2 {date}')
+    plt.title(f'Saturação de O2 - dia {date}')
     plt.plot(timestamps, spo2, color='maroon', marker='o')
-    plt.xlabel('timestamp')
+    plt.xlabel('hora')
     plt.ylabel('SpO2')
 
     plt.show()
@@ -151,14 +151,14 @@ def sleep_reader(date):
     timestamps_stress = [datetime.strptime(datetime.fromtimestamp(ts/1000, tz=local_tz).strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') for ts in timestamps_stress]
 
     fig, ax = plt.subplots(figsize=(12, 6))
-    ax.set_title(f'Sleep Movement and Respiration for {date}')
+    ax.set_title(f'Movimento e respiração noturnas - dia {date}')
     ax.plot(timestamps_mov, move_score, color="red")
-    ax.set_xlabel("timestamp")
-    ax.set_ylabel("Movement Score", color="red")
+    ax.set_xlabel("hora")
+    ax.set_ylabel("Score de movimento", color="red")
 
     ax2=ax.twinx()
     ax2.plot(timestamps_stress, stress, color="blue")
-    ax2.set_ylabel("Respirations/min",color="blue")
+    ax2.set_ylabel("Respiração/min",color="blue")
 
     plt.show()
 
@@ -180,15 +180,15 @@ def week_steps_reader(date):
     dates = [datetime.strptime(ts, '%Y-%m-%d') for ts in dates]
 
     fig, ax = plt.subplots(figsize=(12, 6))
-    ax.set_title('Daily steps, steps goal and steps distance')
-    ax.plot(dates, steps, color="red")
-    ax.plot(dates, goal, color="gray")
-    ax.set_xlabel("date")
-    ax.set_ylabel("Steps", color="red")
+    ax.set_title(f'Passos, objetivo de passos e distância percorrida do dia {date}')
+    ax.plot(dates, steps, color="red", label ='Nº de passos')
+    ax.plot(dates, goal, color="gray", label ='Objetivo de passos')
+    ax.set_xlabel("data")
+    ax.set_ylabel("Nº passos", color="red")
 
     ax2=ax.twinx()
     ax2.plot(dates, distance, color="blue")
-    ax2.set_ylabel("Steps distance (m)",color="blue")
+    ax2.set_ylabel("Distância (m)",color="blue", label ='Distância de passos')
 
     plt.show()
 
@@ -224,20 +224,20 @@ def body_battery_reader(date):
     br1 = np.arange(len(dates))
     br2 = [x + 0.20 for x in br1]
 
-    ax[0].bar(br1, charged, color ='g', width = barWidth, edgecolor ='grey', label ='charged')
-    ax[0].bar(br2, drained, color ='r', width = barWidth, edgecolor ='grey', label ='drained')
+    ax[0].bar(br1, charged, color ='g', width = barWidth, edgecolor ='grey', label ='carregado')
+    ax[0].bar(br2, drained, color ='r', width = barWidth, edgecolor ='grey', label ='gasto')
     
-    ax[0].set_xlabel('Date', fontweight ='bold', fontsize = 10)
-    ax[0].set_ylabel('Body Battery (%)', fontweight ='bold', fontsize = 10)
+    ax[0].set_xlabel('Data', fontweight ='bold', fontsize = 10)
+    ax[0].set_ylabel('Bateria corporal (%)', fontweight ='bold', fontsize = 10)
     ax[0].set_xticks([r + barWidth for r in range(len(dates))], dates)
     ax[0].set_xticklabels([date.strftime("%Y-%m-%d") for date in dates])
-    ax[0].set_title("Daily Body Battery total drainage and charging")
+    ax[0].set_title("Totais diários de bateria corporal carregada e gasta")
     ax[0].legend()
 
     ax[1].plot(timestamps,battery , color="blue")
-    ax[1].set_xlabel('Timestamp', fontweight ='bold', fontsize = 10)
-    ax[1].set_ylabel('Body Battery (%)', fontweight ='bold', fontsize = 10)
-    ax[1].set_title("Body Battery evolution")
+    ax[1].set_xlabel('Data e hora', fontweight ='bold', fontsize = 10)
+    ax[1].set_ylabel('Bateria corporal (%)', fontweight ='bold', fontsize = 10)
+    ax[1].set_title("Evolução temporal da bateria corporal")
     ax[1].grid()
 
     fig.subplots_adjust(hspace=0.6)
@@ -260,9 +260,9 @@ def stress_reader(date):
     plt.grid(True)
 
     ## LINE GRAPH ##
-    plt.title(f'Stress Levels {date}')
+    plt.title(f'Níveis de stress - dia {date}')
     plt.plot(timestamps, values, color='maroon', marker='o')
-    plt.xlabel('timestamp')
-    plt.ylabel('Stress Value')
+    plt.xlabel('Hora')
+    plt.ylabel('Valor de stress')
 
     plt.show()
