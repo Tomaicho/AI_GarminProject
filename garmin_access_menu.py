@@ -35,12 +35,13 @@ from populateAIO import sendToAIO
 
 from data.Heart_rate.feedback import feedback_hr
 from data.Sleep.feedback import feedback_sleep
+from data.Body_Battery.feedback import feedback_bodybattery
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-email = 'tomas.a.lima@gmail.com'
-password = 'Xuub44103976'
+email = ''
+password = ''
 api = None
 # Escolher dia do qual quer obter os dados
 while True:
@@ -54,11 +55,7 @@ while True:
        print('Introduza um número válido')
 
 today = datetime.date.today() - datetime.timedelta(days=dia)
-print('today: ', today)
 startdate = today - datetime.timedelta(days=7) # Selecionar a última semana
-start = 0
-limit = 100
-activitytype = ""  # Valores possíveis: cycling, running, swimming, multi_sport, fitness_equipment, hiking, walking, other
 
 menu_options = {
     "1": f"Resumo do dia em '{today.isoformat()}'",
@@ -76,27 +73,10 @@ menu_options = {
 }
 
 def display_json(api_call, output):
-
-    # dashed = "-"*20
-    # header = f"{dashed} {api_call} {dashed}"
-    # footer = "-"*len(header)
-
-    # print(header + json.dumps(output, indent=4) + footer)
-    # return(header + json.dumps(output, indent=4) + footer)
     print(json.dumps(output, indent=4))
 
 def create_json(output):
     return(json.dumps(output, indent=4))
-
-def display_text(output):
-
-    dashed = "-"*60
-    header = f"{dashed}"
-    footer = "-"*len(header)
-
-    print(header)
-    print(json.dumps(output, indent=4))
-    print(footer)
 
 def get_credentials():
     email = input("Login e-mail: ")
@@ -175,6 +155,7 @@ def switch(api, i):
                 f.write(create_json(api.get_stats(today.isoformat())))
                 f.close()
 
+                # Elimina valores nulos do json
                 filename = f'test_activity_today{today.isoformat()}.json'
                 temp_filename = f'{filename}.tmp'
                 with open(temp_filename, 'w') as temp_f:
@@ -192,17 +173,13 @@ def switch(api, i):
                 f.close()
 
                 # Elimina valores nulos do json
-                filename = f'test_stats{today.isoformat()}.json'
+                filename = f'test_activity_today{today.isoformat()}.json'
                 temp_filename = f'{filename}.tmp'
                 with open(temp_filename, 'w') as temp_f:
                     with open(filename, 'r') as f:
-                        new_list = []
-                        list = json.load(f)
-                    for dic in list:
-                        new_dic = {key: value for key, value in dic.items() if value is not None}
-                        new_list.append(new_dic)
-
-                    json.dump(new_list, temp_f, indent=4)
+                        dic = json.load(f)
+                    new_dic = {key: value for key, value in dic.items() if value is not None}
+                    json.dump(new_dic, temp_f, indent=4)
                 os.replace(temp_filename, filename)
             
 
@@ -237,6 +214,7 @@ def switch(api, i):
                 f.write(create_json(api.get_body_battery(startdate.isoformat(), today.isoformat())))
                 f.close()
                 body_battery_reader(f'{today.isoformat()}')
+                feedback_bodybattery(today)
             
             elif i == "7":
                 # Get sleep data for 'YYYY-MM-DD'
@@ -245,7 +223,7 @@ def switch(api, i):
                 f.close()
                 sleep_reader(f'{today.isoformat()}')
                 duration = feedback_sleep(today)
-                sendToAIO('garmin-data.sleep', duration)
+                sendToAIO('garmin-data.sleep', 300)
 
             elif i == "8":
                 # Get stress data for 'YYYY-MM-DD'

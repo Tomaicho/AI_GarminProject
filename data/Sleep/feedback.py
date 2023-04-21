@@ -45,35 +45,19 @@ def feedback_sleep(date):
                         sleep_duration += end_time - start_time
             media_hoje = mean(movLevelList)
     if media_hoje > media+dp:
-        print("A sua atividade noturna esta noite esteve acima dos padrão normal dos últimos 30 dias.")
+        print("A sua atividade noturna esta noite esteve acima do padrão normal dos últimos 30 dias.\n")
     elif media_hoje < media-dp:
-        print("A sua atividade noturna esta noite foi mais baixa do que o padrão dos últimos 30 dias.")
+        print("A sua atividade noturna esta noite foi mais baixa do que o padrão dos últimos 30 dias.\n")
     else:
-         print("A sua atividade noturna esta noite esteve dentro dos parâmetros normais.")
+         print("A sua atividade noturna esta noite esteve dentro dos parâmetros normais.\n")
     
-    print(f'A duração do seu sono no dia {date.isoformat()} foi de: ', sleep_duration)
+    print(f'A duração do seu sono no dia {date.isoformat()} foi de: ', sleep_duration,'\n')
     sleep_duration = int(sleep_duration.total_seconds()/60)
     if sleep_duration >= 480:
-        print("Dormiu mais do que o número mínimo de horas de sono recomendado. Bom desempenho!")
+        print("Dormiu mais do que o número mínimo de horas de sono recomendado. Bom desempenho!\n")
     elif sleep_duration < 480 and sleep_duration > 420:
-        print("Dormiu um pouco menos do que o número mínimo de horas de sono recomendado que é de 8h. Procure aumentar ligeiramente o seu tempo de sono para evitar complicações de saúde no futuro.")
+        print("Dormiu um pouco menos do que o número mínimo de horas de sono recomendado que é de 8h. Procure aumentar ligeiramente o seu tempo de sono para evitar complicações de saúde no futuro.\n")
     else:
-        print('O seu número de horas de sono hoje foi insuficiente. Evite a repetição deste comportamento de uma forma repetitiva. Se dedica o tempo necessário mas não consegue adormecer, consulte o seu médico.')
+        print('O seu número de horas de sono hoje foi insuficiente. Evite este comportamento de uma forma repetitiva. Se dedica o tempo necessário mas não consegue adormecer, consulte o seu médico.\n')
 
     return sleep_duration
-    # for period in sleep_periodes:
-    #     duration = 
-    
-    # # Adaptar isto!
-    
-    # for value in dictionary['heartRateValues']:
-    #     if value[1] is not None:
-    #         timestamps.append(value[0])
-    #         heartrates.append(value[1])
-    #         if value[1] >= 95 and high == False:
-    #             high = True
-    #             start_time = datetime.utcfromtimestamp(value[0]/1000).strftime("%H:%M")
-    #         elif value[1] < 95 and high == True:
-    #             high = False
-    #             end_time = datetime.utcfromtimestamp(value[0]/1000).strftime("%H:%M")
-    #             high_periodes.append((start_time, end_time))
