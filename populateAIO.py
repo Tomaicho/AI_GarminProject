@@ -4,8 +4,8 @@ import json
 
 def sendToAIO(feed, value):
     # Define your Adafruit IO credentials
-    ADAFRUIT_IO_USERNAME = "Tomacho"
-    ADAFRUIT_IO_KEY = "aio_GJgL76zsvDdBOopQWZpRHCJPFGqd"
+    ADAFRUIT_IO_USERNAME = ""
+    ADAFRUIT_IO_KEY = ""
 
     # Create an instance of the Adafruit IO client
     aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
