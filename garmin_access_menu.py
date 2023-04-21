@@ -73,7 +73,7 @@ menu_options = {
     "q": "Sair",
 }
 
-def display_json(api_call, output):
+def display_json(output):
     print(json.dumps(output, indent=4))
 
 def create_json(output):
@@ -166,6 +166,11 @@ def switch(api, i):
                     json.dump(new_dic, temp_f, indent=4)
                 os.replace(temp_filename, filename)
 
+                with open(filename, 'r') as f:
+                    dic = json.load(f)
+                    print(json.dumps(dic, indent=4))
+
+
 
             elif i == "2":
                 # Get stats and body composition data for 'YYYY-MM-DD'
@@ -183,6 +188,9 @@ def switch(api, i):
                     json.dump(new_dic, temp_f, indent=4)
                 os.replace(temp_filename, filename)
             
+                with open(filename, 'r') as f:
+                    dic = json.load(f)
+                    print(json.dumps(dic, indent=4))
 
 
             # USER STATISTICS LOGGED
